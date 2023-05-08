@@ -1,3 +1,14 @@
+/* Custom Props */
+:root{
+  --body-bg: #f1f4ff;
+  --green: #4dc490;
+  --purple: #655af2;
+  --red: #d03535;
+  --text-color: #000;
+
+}
+
+/* GLOBAL */
 html{
   box-sizing: border-box;
   height: 100%;
@@ -23,7 +34,7 @@ body{
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
-  color: #222;
+  color: var(--text-color);
 }
 
 img{
